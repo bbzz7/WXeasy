@@ -22,6 +22,6 @@
 	WXeasy.hashTable(openid,'addCount.html?'+openid);
     WXeasy.set(config);
 
- ###tips:
+###tips:
 
- 注意，分享缩略图须大于或等于300*300~
+注意，分享缩略图须大于或等于300*300~
