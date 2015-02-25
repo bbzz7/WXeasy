@@ -1,7 +1,7 @@
 # WXeasy
 无需js-sdk支持的微信分享库
 
-useage:
+###useage:
 
 //设置微信分享
 
