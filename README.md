@@ -11,3 +11,13 @@ useage:
 		link:'http://www.qq.com'
 	};
 	WXeasy.set(config);
+
+//传递参数
+
+	var openid=window.location.href.split('?')[1].split('&')[0];
+	var config={
+		img:'http://121.42.41.39/project/csyh20150116/images/logo.jpg',
+		title:'一起来摇压岁钱吧',
+	};
+	WXeasy.hashTable(openid,'addCount.html?'+openid);
+    WXeasy.set(config);
