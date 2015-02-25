@@ -42,7 +42,7 @@
 		if(!(hash && value)){
 			return $config.hashTable;
 		}else{
-			$config.hashTable[hash]=value;
+			$config.hashTable[hash]=valuexxx;
 		}
 	};
 		
