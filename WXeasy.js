@@ -43,6 +43,7 @@
 			return $config.hashTable;
 		}else{
 			$config.hashTable[hash]=value;
+			return;
 		}
 	};
 		
