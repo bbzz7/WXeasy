@@ -7,7 +7,7 @@
 
 	var config={
 		img:'http://www.hylinkcs.com/project/lygq20150126/images/logo.png',
-		title:'无需js-sdk支持的微信分享库',
+		title:'WXeasy,无需js-sdk支持的微信分享库',
 		link:'http://www.qq.com'
 	};
 	WXeasy.set(config);
@@ -16,8 +16,12 @@
 
 	var openid=window.location.href.split('?')[1].split('&')[0];
 	var config={
-		img:'http://121.42.41.39/project/csyh20150116/images/logo.jpg',
-		title:'一起来摇压岁钱吧',
+		img:'http://www.hylinkcs.com/project/lygq20150126/images/logo.png',
+		title:'WXeasy,无需js-sdk支持的微信分享库',
 	};
 	WXeasy.hashTable(openid,'addCount.html?'+openid);
     WXeasy.set(config);
+
+ ###tips:
+
+ 注意，分享缩略图须大于或等于300*300~
